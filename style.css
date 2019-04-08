@@ -13,12 +13,6 @@ footer {
   color: white;
   display: block;
 }
-#disclaimer {
-  display: block;
-  text-align: center;
-  background-color:#e6cccc;
-  padding: 10px;
-}
 header #MainTitle {
   font-size: 30pt;
   color: white;
@@ -141,4 +135,10 @@ text-align: center;
   display: inline-block;
   float: right;
   margin: 100px 50px 400px 0px;
+}
+#disclaimer {
+  display: block;
+  text-align: center;
+  background-color:#e6cccc;
+  padding: 10px;
 }
