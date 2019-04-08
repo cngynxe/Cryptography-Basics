@@ -1,0 +1,135 @@
+html {
+  font-family: "Didot", Didot, sans-serif;
+}
+header {
+  text-align: center;
+}
+footer {
+  text-indent: 5pt;
+  border-top: 1pt;
+  border-bottom: 1pt;
+  border-color: #CCCCCC;
+  background-color:#B23634;
+  color: white;
+  display: block;
+}
+header #MainTitle {
+  font-size: 30pt;
+  color: white;
+  background-color:#B23634;
+  padding:10pt;
+  z-index: -1;
+}
+.titleseq h1 {
+  top: 45px;
+  left: 50px;
+  right: 50px;
+  bottom: 45px;
+}
+table {
+  border-collapse: collapse;
+}
+header table {
+  table-layout: fixed;
+  width: 100%;
+}
+header table, th, td {
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  text-align: center;
+}
+#binary {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  background-color: #AAAAAA;
+}
+#secret:visited {
+  color: white;
+}
+#secret:hover {
+  font-weight: bold;
+  font-size: 16px;
+  color: #FF5955;
+  cursor: grabbing;
+}
+.bubbles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  float: none;
+}
+#decryptlogo {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.infobutton {
+  position: relative;
+  background-color: #DDDDDD;
+  border: none;
+  color: #B23634;
+  font-family: "Didot", Didot, sans-serif;
+  padding: 37px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 100%;
+  cursor: pointer;
+  float: left;
+}
+.infobutton:hover {
+  transition: 0.1s;
+  border: 3px solid;
+  border-color: #B23634;
+}
+a:link {
+  color: #999999;
+  text-decoration: none;
+}
+a:visited {
+  color: #999999;
+}
+a:hover {
+  color:#FF5955;
+  font-weight:bold;
+}
+.bubbles button {
+  margin-left: 15px;
+}
+.bubbles p {
+text-align: center;
+ background-color:#e6cccc;
+ margin-top: 20px;
+ margin-right: 25px;
+ margin-bottom: 30px;
+ padding: 15px;
+ font-size: 14px;
+ float: right;
+}
+.redirect {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+#congrats {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+  background-color: #FFAAAC;
+}
+#egg {
+  float: left;
+}
+#binarycode {
+  display: inline-block;
+  float: right;
+  margin: 100px 50px 400px 0px;
+}
