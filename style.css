@@ -47,6 +47,9 @@ header table, th, td {
   color: white;
   background-color: #AAAAAA;
 }
+#secret:link {
+  color:white;
+}
 #secret:visited {
   color: white;
 }
