@@ -13,6 +13,10 @@ footer {
   color: white;
   display: block;
 }
+#disclaimer {
+  background-color:#e6cccc;
+  padding: 10px;
+}
 header #MainTitle {
   font-size: 30pt;
   color: white;
