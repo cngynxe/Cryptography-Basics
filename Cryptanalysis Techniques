@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ciphers</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="MainTitle">Decrypt!</h1>
+      <nav>
+        <table>
+          <tbody>
+            <tr>
+              <td><a href="index.html" style="font-variant: small-caps">Home</a></td>
+              <td><a href="learn.html" style="font-variant:small-caps">Learn</a></td>
+              <td><a href="practice.html" style="font-variant:small-caps">Practice</a></td>
+              <td><a href="levels.html" style ="font-variant: small-caps">Challenge</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </nav>
+    </header>
+    <h3> Basic Cryptanalysis Techniques </h3>
+      <p> No, you will not become a successful hacker by learning these techniques. But you'll learn how to solve simpler ciphers -- and have fun with cryptography too! </p>
+    <h4> Text Characterization </h4>
+      <h5> The Chi-Squared Statistic </h5>
+      <p> The Chi-Squared Statistic is a generic measure of how similar two categorical probability distributions are. The larger, the chi-squared statistic is, the more the the distributions of the two probabilities vary. </p>
+      <img src="Chi-Square.png" alt="Chi Square Equation">
+      <p> Note that the variables C & E stand for the <u>counts</u> of the letters themselves, <u>not</u> the <u>probabilities</u>. </p>
+      <p> The Chi-Squared statistic is most often used to find the "shift" in substitution ciphers (specifically the Caesar cipher). By comparing the the encrypted text's letter distribution to the normal English letter distribution, we can identify the shift key of the cipher. </p>
+    </body>
+  </html>
